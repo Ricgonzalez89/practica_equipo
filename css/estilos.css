@@ -14,6 +14,12 @@ li p {
     color: #149;
 }
 
+.tip {
+    font-size: 30px;
+    font-weight: bold;
+    color: #914;
+}
+
 .contenedor_btn {
     margin: auto;
     width: 80vw;
