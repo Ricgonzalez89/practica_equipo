@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+li p {
+    font-size: 18px;
+}
+
+.comando {
+    font-size: 30px;
+    font-weight: bold;
+    color: #149;
+}
