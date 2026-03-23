@@ -9,7 +9,7 @@
 <body>
     <h1>¡Bievenido a los cambios en la rama RAGS!</h1>
     <p>
-        este archivo se creo en una rama adicional y luego fue fusionada con la rama Main.
+        Este archivo se creo en una rama adicional y luego fue fusionada con la rama Main.
     </p>
     <ul>
         <li>
@@ -46,6 +46,106 @@
                 porci&oacute;n de las rutas subsiguientes (y puede usarse para volver al home, con 
                 "cd ~"), a menos que nos movamos a alguna ruta distinta al mismo nivel o por encima
                 del home.  
+            </p>
+        </li>
+        <li>
+            <span class="comando">ls</span>
+            <p>
+                Imprime los directorios y archivos de la ruta actual. Si se especifica el argumento
+                -a, se imprimen todos los directorios incluidos los ocultos; el argumento -l,
+                imprime la salida como una lista. Ambos argumentos pueden darse a la vez: ls -al.
+            </p>
+        </li>
+        <li>
+            <span class="comando">mkdir x</span>
+            <p>
+                Crea una carpeta con nombre "x" en la ruta actual.
+            </p>
+        </li>
+        <li>
+            <span class="tip">Sobre las rutas y su escritura...</span>
+            <p>
+                Windows no distingue entre may&uacute;sculas y min&uacute;sculas, a diferencia de 
+                Linux y MacOS. Al presionar la tecla "Tab", las rutas pueden ser autocompletadas
+                siempre que coincidan con una ruta dentro del directorio en done uno se encuentre.
+            </p>
+        </li>
+        <li>
+            <span class="comando">cat x</span>
+            <p>
+                Imprime en consola el contenido de un archivo "x".
+            </p>
+        </li>
+        <li>
+            <span class="comando">touch x</span>
+            <p>
+                Crea un archivo "x". Debe incluirse la extensi&oacute;n del archivo, ya sea .txt,
+                .doc, .css, .html, etc. Solo sirve en entornos Unix, como Git Bash.
+            </p>
+        </li>
+        <li>
+            <span class="comando">git x --help</span>
+            <p>
+                Muestra ayuda sobre el comando "x". Tambi&eacute;n puede escribirse "git help x",
+                para obtener ayuda con el comando "x". Si se ejecuta "git help" solo, imprime 
+                los comandos mas utilizados en Git y una corta descripci&oacute;n de cada uno.
+            </p>
+        </li>
+        <li>
+            <span class="comando">git rm x</span>
+            <p>
+                Elimina en archivo "x" del espacio del trabajo. El archivo es eliminado tanto del 
+                espacio de trabajo como del disco duro, por lo que debe usarse con cuidado.
+            </p>
+            <p>
+                El argumento --cached sirve para borrar elementos del staging sin eliminarlos
+                del espacio de trabajo (como si se hubieran incluido por accidente).
+            </p>
+            <p>
+                El argumento -n, ejecuta una "corrida en seco": muestra si puede borrar un archivo "x"
+                o si est&aacute;n en el staging. Solo puede eliminar archivos previamente confirmados.
+            </p>
+            <p>
+                El argumento -f, fuerza la eliminaci&oacute;n de un archivo, sin importar donde est&eacute; 
+                o si tiene cambios.
+            </p>
+            <p>
+                La opcion -r, permite eliminar recursivamente archivos, como las carpetas que tienen 
+                otros archivos dentro.
+            </p>
+        </li>
+        <li>
+            <span class="tip">git rm vs. rm</span>
+            <p>
+                Mientras que "git rm" es una de las funciones de Git, el comando "rm" por si solo es
+                una funcion de los entornos Linux/Unix para eliminar archivos. De esta forma, git rm
+                manipula archivos del staging y el espacio de trabajo, mientras que rm suele usarse
+                fuera del entorno de Git.
+            </p>
+        </li>
+        <li>
+            <span class="comando">git commit</span>
+            <p>
+                Permite confirmar cambios en el repositorio local. Con el argumento: -m "x", puede
+                agregarse un mensaje explicativo "x" a la confirmaci&oacute;n (entre comillas).
+                Es una mala pr&aacute;ctica no hacerlo.
+            </p>
+            <p>
+                Si se indica la bandera -a, los archivos con cambios fuera del staging se agregan de 
+                forma autom&aacute;tica, sin tener que hacer git add.
+            </p>
+            <p>
+                Si se intenta enviar un commit sin mensaje se abre el editor de texto Vim (o VS Code 
+                para algunos), solicitando el mensaje de la confirmaci&oacute;n.
+            </p>
+        </li>
+        <li>
+            <span class="tip">El Editor Vim</span>
+            <p>
+                Vim es el editor predeterminado de Git, que abre al escribir "vim" en Git Bash
+                o cuando Git necesita que el usuario escriba un mensaje. Para escribir en Vim,
+                primer se presiona la tecla "i" y luego se escribe el mensaje. Con el comando 
+                " Esc + Shift + ZZ" se guardan los cambios y se sale de Vim.
             </p>
         </li>
     </ul>
