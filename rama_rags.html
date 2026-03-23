@@ -124,6 +124,13 @@
             </p>
         </li>
         <li>
+            <span class="comando">git add x</span>
+            <p>
+                Incluye un archivo "x" al staging para confirmar cambios. Si se usa un punto como
+                valor de "x" (git add .), todos los archivos con cambios se incluyen al staging.
+            </p>
+        </li>
+        <li>
             <span class="comando">git commit</span>
             <p>
                 Permite confirmar cambios en el repositorio local. Con el argumento: -m "x", puede
@@ -146,6 +153,36 @@
                 o cuando Git necesita que el usuario escriba un mensaje. Para escribir en Vim,
                 primer se presiona la tecla "i" y luego se escribe el mensaje. Con el comando 
                 " Esc + Shift + ZZ" se guardan los cambios y se sale de Vim.
+            </p>
+        </li>
+        <li>
+            <span class="comando">git config</span>
+            <p>
+                Usado para configurar distintos aspectos de Git y ver la configuraci&oacute;n actual.
+            </p>
+            <p>
+                La opcion --global, establece la configuracion hecha como v&aacute;lida para 
+                todo el equipo de trabajo, sus usuarios registrados y los repositorios guardados.
+            </p>
+            <p>
+                La opcion --list, muestra la configuracion actual de Git. Hay veces en que este 
+                comando se abrevia con -l, oero seg&uacute;n la documentacion, lo ideal es
+                escribir "git config list" para ver esta informaci&oacute;n.
+            </p>
+            <p>
+                --show-origin es una opcion usada junto a --list, para mostrar la ubicaci&oacute;n 
+                exacta donde se guardan los campos de la configuracion.
+            </p>
+            <p>
+                user.name "x", es un campo que configura el nombre de usuario como "x".
+            </p>
+            <p>
+                user.email "x", configura el correo como "x".
+            </p>
+            <p>
+                Los dos comandos anteriores definen las credenciales a usar para identificar el
+                autor de los commits. Se recomienda que coincidan con los datos de la cuenta de 
+                GitHub. Las comillas dobles para escribir los valores son obligatorias.
             </p>
         </li>
     </ul>
