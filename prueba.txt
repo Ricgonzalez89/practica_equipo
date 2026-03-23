@@ -1,3 +1,0 @@
-Este es un archivo de texto plano para probar ciertaa funciones espcificas de Git.
-
-La idea es borrarlo con "git rm".
