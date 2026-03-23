@@ -137,7 +137,7 @@ Se coloca la letra del disco donde se quiera crear el repositorio, ej: `$ cd e:`
 # Clona el repositorio desde GitHub a nuestro repositorio local
 1. $ git clone <URL del repositorio a importar desde GitHub>
 
-# Envia los Commits realizados en el repositorio local en GitHub
+# Envia los Commits realizados en el repositorio local a GitHub
 2. $ git push origin main
 
 # Actualiza automáticamente el repositorio local con los cambios hechos en el repositorio de GitHub
