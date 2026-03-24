@@ -28,16 +28,16 @@ Comandos donde se use ej: `<Nombre>`, no se usan los `<>`
 - <kbd>$ pwd</kbd> - Indica donde estamos posicionados en el directorio.
 - <kbd>$ clear</kbd> - Limpia la consola o terminal de comandos.
 - <kbd>$ cd ../</kbd> - Regresa a la carpeta anterior.
-- <kbd>$ cd <Nombre de la carpeta></kbd> - Moverse entre carpetas del directorio.
-- <kbd>$ mkdir <Nombre de la carpeta></kbd> - Crea una carpeta la carpeta.
-- <kbd>$ rmdir <Nombre de la carpeta></kbd> - Elimina la carpeta del nombre mencionado.
-- <kbd>$ git add <Nombre del archivo></kbd> - Agrega un archivo al *área de preparación*.
+- <kbd>$ cd</kbd> + `<Nombre de la carpeta>` - Moverse entre carpetas del directorio.
+- <kbd>$ mkdir</kbd> + `<Nombre de la carpeta>` - Crea una carpeta la carpeta.
+- <kbd>$ rmdir</kbd> + `<Nombre de la carpeta>` - Elimina la carpeta del nombre mencionado.
+- <kbd>$ git add</kbd> + `<Nombre del archivo>` - Agrega un archivo al *área de preparación*.
 - <kbd>$ git status</kbd> - Muestra información sobre el status del *área de preparación*.
 - <kbd>$ git commit -a</kbd> - Hace *Commit* de los archivos del repositorio sin pasar por el *área de preparación*.
-- <kbd>$ git commit -m "Descripción del Commit"</kbd> - Hace *Commit* de los archivos que se encuentran en el *área de preparación*.
+- <kbd>$ git commit -m</kbd> + `"Descripción del Commit"` - Hace *Commit* de los archivos que se encuentran en el *área de preparación*.
 - <kbd>$ git config --list</kbd> - Lista de configuraciones de **Git**.
 - <kbd>$ git config --global --list</kbd> - Lista de configuraciones globales de **Git**.
-- <kbd>$ git rm --cached <Nombre del archivo></kbd> - Quita un archivo del *área de preparación*.
+- <kbd>$ git rm --cached</kbd> + `<Nombre del archivo>` - Quita un archivo del *área de preparación*.
 
 ## Configuración Inicial de Git
 
