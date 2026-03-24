@@ -1,10 +1,10 @@
 # Prácticas - Laboratorio I
 
-Este espacio fue creado con el objetivo de realizar prácticas a modo de entender cómo se integra **Git** como **Sistema de Control de Versiones** en la vida diaria de un *Programador* y el uso de **GitHub** como entorno de trabajo.
+Este espacio fue creado con el objetivo de realizar prácticas a modo de entender cómo se integra **Git** como *Sistema de Control de Versiones* en la vida diaria de un *Programador* y el uso de **GitHub** como entorno de trabajo.
 
 ## Áreas de Git
 
-Las **tres áreas principales** de Git son:
+Las **tres áreas principales** de **Git** son:
 
 #### 1. **Working Directory** (Directorio de Trabajo).
 - Es donde tienes tus archivos locales.
@@ -24,20 +24,20 @@ Las **tres áreas principales** de Git son:
 ## Comandos Git
 Comandos donde se use ej: `<Nombre>`, no se usan los `<>`
 
-- `$ ls` - Visualiza los archivos dentro del repositorio.
-- `$ pwd` - Indica donde estamos posicionados en el directorio.
-- `$ clear` - Limpia la consola o terminal de comandos.
-- `$ cd ../` - Regresa a la carpeta anterior.
-- `$ cd <Nombre de la carpeta>` - Moverse entre carpetas del directorio.
-- `$ mkdir <Nombre de la carpeta>` - Crea una carpeta la carpeta.
-- `$ rmdir <Nombre de la carpeta>` - Elimina la carpeta del nombre mencionado.
-- `$ git add <Nombre del archivo>` - Agrega un archivo al *área de preparación*.
-- `$ git status` - Muestra información sobre el status del *área de preparación*.
-- `$ git commit -a` - Hace *Commit* de los archivos del repositorio sin pasar por el *área de preparación*.
-- `$ git commit -m "Descripción del Commit"` - Hace *Commit* de los archivos que se encuentran en el *área de preparación*.
-- `$ git config --list` - Lista de configuraciones de **Git**.
-- `$ git config --global --list` - Lista de configuraciones globales de **Git**.
-- `$ git rm --cached <Nombre del archivo>`- Quita un archivo del *área de preparación*.
+- <kbd>$ ls</kbd> - Visualiza los archivos dentro del repositorio.
+- <kbd>$ pwd</kbd> - Indica donde estamos posicionados en el directorio.
+- <kbd>$ clear</kbd> - Limpia la consola o terminal de comandos.
+- <kbd>$ cd ../</kbd> - Regresa a la carpeta anterior.
+- <kbd>$ cd <Nombre de la carpeta></kbd> - Moverse entre carpetas del directorio.
+- <kbd>$ mkdir <Nombre de la carpeta></kbd> - Crea una carpeta la carpeta.
+- <kbd>$ rmdir <Nombre de la carpeta></kbd> - Elimina la carpeta del nombre mencionado.
+- <kbd>$ git add <Nombre del archivo></kbd> - Agrega un archivo al *área de preparación*.
+- <kbd>$ git status</kbd> - Muestra información sobre el status del *área de preparación*.
+- <kbd>$ git commit -a</kbd> - Hace *Commit* de los archivos del repositorio sin pasar por el *área de preparación*.
+- <kbd>$ git commit -m "Descripción del Commit"</kbd> - Hace *Commit* de los archivos que se encuentran en el *área de preparación*.
+- <kbd>$ git config --list</kbd> - Lista de configuraciones de **Git**.
+- <kbd>$ git config --global --list</kbd> - Lista de configuraciones globales de **Git**.
+- <kbd>$ git rm --cached <Nombre del archivo></kbd> - Quita un archivo del *área de preparación*.
 
 ## Configuración Inicial de Git
 
@@ -60,7 +60,7 @@ Comandos donde se use ej: `<Nombre>`, no se usan los `<>`
 
 ## Inicializar un Nuevo Repositorio
 
-Se coloca la letra del disco donde se quiera crear el repositorio, ej: `$ cd e:`
+Se coloca la letra del disco donde se quiera crear el repositorio, ej: <kbd>$ cd e:</kbd>
 
 ```bash
 # Moverse entre Discos
@@ -147,7 +147,7 @@ Se coloca la letra del disco donde se quiera crear el repositorio, ej: `$ cd e:`
 ## Comandos de Utilidad Extra
 
 - Los archivos se pueden recuperar solo si fueron agregados anteriormente al *área de preparación*.
-- Volver al último *Commit* de un archivo resetea la información del mismo al último commit hecho.
+- Volver al último *Commit* de un archivo resetea la información del mismo al último *Commit* hecho.
 
 ```bash
 # Restaura un archivo desde el área de preparación
@@ -174,3 +174,7 @@ $ git log --oneline
 # Compara dos Commit usando su ID
 $ git diff <ID del Commit 1> <ID del Commit 2>
 ```
+
+## Más Información
+
+Para profundizar más sobre la edición del **README.md** puedes revisar la documentación oficial sobre el formato [Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
