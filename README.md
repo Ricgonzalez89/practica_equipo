@@ -122,7 +122,7 @@ Se coloca la letra del disco donde se quiera crear el repositorio, ej: <kbd>$ cd
 3. $ git switch <Nombre de la Rama>
 
 # Elimina una rama del repositorio
-4. $ git branch -d <nombre-de-la-rama>
+4. $ git branch -D <nombre-de-la-rama>
 
 # Cambiar el nombre de una rama
 5. $ git branch -m <nombre-actual-de-la-rama> <nombre-nuevo-de-la-rama>
